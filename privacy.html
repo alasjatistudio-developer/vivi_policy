@@ -1,170 +1,93 @@
-<!DOCTYPE html>
-<html lang="id">
+<!DOCTYPE html><html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Vivi Coin Hunter</title>
+    <title>Kebijakan Privasi - ViVi Coin Hunter</title>
     <style>
-        :root {
-            --primary-red: #E53935;
-            --dark-bg: #0A0A0A;
-            --card-bg: #161616;
-            --text-main: #FFFFFF;
-            --text-dim: #A0A0A0;
-        }
-
         body {
-            font-family: 'Segoe UI', Roboto, sans-serif;
-            background-color: var(--dark-bg);
-            color: var(--text-main);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Language Switcher Styling */
-        .lang-switcher {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: rgba(22, 22, 22, 0.9);
-            padding: 5px;
-            border-radius: 12px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-        }
-
-        .lang-btn {
-            background: transparent;
-            border: none;
-            color: var(--text-dim);
-            padding: 8px 15px;
-            cursor: pointer;
-            font-weight: bold;
-            border-radius: 8px;
-            transition: 0.3s;
-        }
-
-        .lang-btn.active {
-            background: var(--primary-red);
-            color: white;
-        }
-
-        .container {
-            max-width: 850px;
+            color: #333;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
         }
-
-        .content-card {
-            background-color: var(--card-bg);
+        .container {
+            background-color: #fff;
             padding: 40px;
-            border-radius: 24px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-
-        .gdpr-badge {
-            background: #2E7D32;
-            color: white;
-            padding: 4px 12px;
-            border-radius: 4px;
-            font-size: 12px;
-            font-weight: bold;
-            display: inline-block;
-            margin-bottom: 10px;
+        h1 {
+            color: #e60000;
+            border-bottom: 2px solid #e60000;
+            padding-bottom: 10px;
         }
-
-        h1 { font-size: 28px; margin-bottom: 5px; color: var(--primary-red); }
-        h2 { color: var(--primary-red); border-left: 4px solid var(--primary-red); padding-left: 15px; margin-top: 35px; font-size: 20px; }
-        
-        .lang-section { display: none; }
-        .lang-section.active { display: block; }
-
-        .footer { text-align: center; margin-top: 50px; padding: 30px; color: var(--text-dim); font-size: 13px; }
-        .contact-box { background: rgba(229, 57, 53, 0.05); padding: 20px; border-radius: 12px; border: 1px solid rgba(229, 57, 53, 0.2); margin-top: 40px; }
-        a { color: var(--primary-red); text-decoration: none; }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+        }
+        .service-list {
+            background-color: #fff8f8;
+            padding: 15px;
+            border-left: 4px solid #e60000;
+            margin: 10px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
     </style>
 </head>
 <body>
-
-    <div class="lang-switcher">
-        <button class="lang-btn active" onclick="switchLang('id')">ID</button>
-        <button class="lang-btn" onclick="switchLang('en')">EN</button>
-    </div>
-
     <div class="container">
-        <div class="content-card">
-            <div class="gdpr-badge">GDPR COMPLIANT</div>
+        <h1>Kebijakan Privasi ViVi Coin Hunter</h1>
+        <p class="last-updated">Terakhir diperbarui: 13 April 2026</p>
 
-            <!-- INDONESIAN VERSION -->
-            <div id="lang-id" class="lang-section active">
-                <h1>Kebijakan Privasi</h1>
-                <p class="last-updated">Terakhir Diperbarui: 27 Oktober 2023</p>
-                <p>Vivi Coin Hunter berkomitmen untuk melindungi data pribadi Anda sesuai dengan standar perlindungan data global (GDPR).</p>
+        <p>ViVi adalah platform hiburan digital yang dirancang untuk memberikan pengalaman menonton yang elegan dan tanpa hambatan. Kami berkomitmen untuk melindungi privasi Anda sesuai dengan standar perlindungan data global (GDPR).</p>
 
-                <h2>1. Dasar Hukum Pemrosesan</h2>
-                <p>Kami memproses data Anda berdasarkan Kontrak (untuk koin), Persetujuan (untuk iklan), dan Kepentingan Sah (untuk analitik).</p>
+        <h2>1. Dasar Hukum & Data Pribadi</h2>
+        <p>Sesuai GDPR, kami memproses data berdasarkan kebutuhan kontrak (reward koin) dan kepentingan sah (analitik). Data yang dikumpulkan meliputi:</p>
+        <ul>
+            <li>Username</li>
+            <li>Nomor Telepon (untuk keperluan penarikan/withdrawal koin)</li>
+            <li>ID Perangkat (untuk keamanan akun dan pencegahan fraud)</li>
+        </ul>
 
-                <h2>2. Informasi Yang Kami Kumpulkan</h2>
-                <ul>
-                    <li><strong>Identitas:</strong> Username dan User ID (UID) unik.</li>
-                    <li><strong>Kontak:</strong> Nomor Telepon (hanya saat penarikan saldo e-wallet).</li>
-                    <li><strong>Teknis:</strong> Model HP, Brand, dan Lokasi Negara.</li>
-                </ul>
-
-                <h2>3. Hak Anda (GDPR)</h2>
-                <p>Anda memiliki hak untuk mengakses, memperbaiki, memindahkan, dan menghapus data pribadi Anda secara permanen kapan saja.</p>
-
-                <div class="contact-box">
-                    Hubungi Petugas Perlindungan Data (DPO): <br>
-                    <strong>admin@alasjatistudio.com</strong>
-                </div>
-            </div>
-
-            <!-- ENGLISH VERSION -->
-            <div id="lang-en" class="lang-section">
-                <h1>Privacy Policy</h1>
-                <p class="last-updated">Last Updated: October 27, 2023</p>
-                <p>Vivi Coin Hunter is committed to protecting your personal data in accordance with global data protection standards (GDPR).</p>
-
-                <h2>1. Legal Basis for Processing</h2>
-                <p>We process your data based on Contract (for coins), Consent (for ads), and Legitimate Interest (for analytics).</p>
-
-                <h2>2. Information We Collect</h2>
-                <ul>
-                    <li><strong>Identity:</strong> Username and unique User ID (UID).</li>
-                    <li><strong>Contact:</strong> Phone Number (only during e-wallet withdrawal requests).</li>
-                    <li><strong>Technical:</strong> Device Model, Brand, and Country Location.</li>
-                </ul>
-
-                <h2>3. Your Rights (GDPR)</h2>
-                <p>You have the right to access, rectify, port, and permanently delete your personal data at any time.</p>
-
-                <div class="contact-box">
-                    Contact Data Protection Officer (DPO): <br>
-                    <strong>admin@alasjatistudio.com</strong>
-                </div>
-            </div>
-
+        <h2>2. Layanan Pihak Ketiga (Third-Party Services)</h2>
+        <p>Untuk menyediakan layanan yang optimal, kami menggunakan penyedia layanan pihak ketiga berikut:</p>
+        <div class="service-list">
+            <strong>Google Firebase:</strong> Digunakan untuk penyimpanan data terenkripsi, autentikasi pengguna, dan analitik performa aplikasi. Data Anda dikelola di infrastruktur Google yang aman.<br><br>
+            <strong>Google AdMob:</strong> Digunakan untuk menampilkan iklan. Jika Anda berada di wilayah EEA (European Economic Area), AdMob akan meminta persetujuan khusus untuk iklan yang dipersonalisasi sesuai dengan kebijakan ePrivacy.
         </div>
+
+        <h2>3. Hak-Hak Anda (EEA & Global)</h2>
+        <p>Anda memiliki hak penuh untuk mengakses, memperbaiki, memindahkan (portabilitas), dan menghapus data pribadi Anda kapan saja. Kami akan memproses permintaan penghapusan data secara permanen dalam waktu 24 jam setelah permintaan diterima melalui email dukungan kami.</p>
+
+        <h2>4. Transfer Data Internasional</h2>
+        <p>Data Anda disimpan dan diproses di infrastruktur cloud yang terenkripsi. Dengan menggunakan aplikasi ini, Anda menyetujui transfer data lintas negara sesuai dengan standar keamanan industri dan kepatuhan terhadap perlindungan data.</p>
+
+        <h2>5. Keamanan Data</h2>
+        <p>Keamanan data adalah prioritas utama kami. Kami menerapkan enkripsi SSL/TLS dan prosedur keamanan tingkat tinggi untuk mencegah akses tidak sah, pengungkapan, atau modifikasi terhadap informasi pribadi Anda.</p>
+
+        <h2>6. Kontak Pengendali Data</h2>
+        <p>Alas Jati Studio bertindak sebagai pengendali data utama. Jika Anda memiliki pertanyaan atau ingin mengajukan penghapusan data (DPO), silakan hubungi kami di:</p>
+        <p>Email: <strong>admin@alasjatistudio.com</strong></p>
 
         <div class="footer">
-            &copy; 2023 Vivi Coin Hunter - Alas Jati Studio.
+            <p>&copy; 2026 Alas Jati Studio. Seluruh Hak Cipta Dilindungi.</p>
         </div>
     </div>
-
-    <script>
-        function switchLang(lang) {
-            // Toggle sections
-            document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
-            document.getElementById('lang-' + lang).classList.add('active');
-
-            // Toggle buttons
-            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-        }
-    </script>
 </body>
 </html>
